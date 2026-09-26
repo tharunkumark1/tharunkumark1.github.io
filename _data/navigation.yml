@@ -1,12 +1,8 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Resume"
+    url: /assets/resume/Tharun_Kumar_Ksheerasagar_Resume.pdf
+  - title: "LinkedIn"
+    url: https://linkedin.com/in/tharun-kumar-ksheerasagar
+  - title: "GitHub"
+    url: https://github.com/tharunkumark1
