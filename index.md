@@ -150,5 +150,3 @@ Synopsys VDK, AMD Vivado / Vitis, AMD xsim, Cadence IWB / Incisive, NCSim
     <span class="contact-card__value">@tharunkumark1</span>
   </a>
 </div>
-
-Hyderabad, India
