@@ -1,0 +1,214 @@
+/* ==========================================================================
+   Profile customisations
+   Accent palette mirrors the resume: executive navy #002b5b, link blue #0066cc
+   ========================================================================== */
+
+$accent: #002b5b;
+$accent-light: #0a3d75;
+$link: #0066cc;
+$rule: #dfe3e8;
+$text-muted: #5a6472;
+
+/* --- Hero ---------------------------------------------------------------- */
+
+.page__hero--overlay {
+  background-image: linear-gradient(135deg, $accent 0%, $accent-light 100%);
+  min-height: 260px;
+  padding: 3.5rem 0;
+
+  .page__title {
+    color: #fff;
+    font-size: 2.1rem;
+    letter-spacing: 0.01em;
+    margin-bottom: 0.35rem;
+  }
+
+  .page__lead {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.15rem;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+  .btn--light-outline {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.7);
+
+    &:hover,
+    &:focus {
+      color: $accent;
+      background-color: #fff;
+      border-color: #fff;
+    }
+  }
+
+  .page__meta {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+/* --- Masthead ------------------------------------------------------------ */
+
+.masthead {
+  background-color: #fff;
+  border-bottom: 1px solid $rule;
+
+  .site-title {
+    color: $accent;
+    font-weight: 700;
+  }
+}
+
+/* --- Section headings ---------------------------------------------------- */
+
+.page__content {
+  h2 {
+    color: $accent;
+    font-size: 1.35rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 2.4rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid $rule;
+  }
+
+  h3 {
+    color: $accent;
+    font-size: 1.1rem;
+    margin-top: 1.6rem;
+    margin-bottom: 0.15rem;
+  }
+
+  h4 {
+    color: $text-muted;
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  a {
+    color: $link;
+  }
+
+  strong {
+    color: #1e1e1e;
+  }
+}
+
+/* The company line directly under an h3 is the role/location/dates line. */
+.page__content h3 + p {
+  color: $text-muted;
+  font-size: 0.92rem;
+  margin-bottom: 0.5rem;
+}
+
+/* --- Experience --------------------------------------------------------- */
+
+.page__content ul {
+  padding-left: 1.1rem;
+
+  li {
+    margin-bottom: 0.4rem;
+  }
+}
+
+/* --- Education / certifications ------------------------------------------ */
+
+.page__content table {
+  font-size: 0.9rem;
+
+  th {
+    color: $text-muted;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-bottom: 1px solid $rule;
+  }
+
+  td,
+  th {
+    border: none;
+    border-bottom: 1px solid $rule;
+  }
+}
+
+/* --- Contact cards ------------------------------------------------------- */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.75rem;
+  margin: 1.2rem 0 1rem;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid $rule;
+  border-left: 3px solid $accent;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+  i {
+    color: $accent;
+    font-size: 0.95rem;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $accent;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.contact-card__label {
+  color: $text-muted;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.contact-card__value {
+  color: #1e1e1e;
+  font-size: 0.92rem;
+  word-break: break-word;
+}
+
+/* --- Footer -------------------------------------------------------------- */
+
+.page__footer {
+  border-top: 1px solid $rule;
+  margin-top: 3rem;
+
+  .page__footer-copyright {
+    color: $text-muted;
+    font-size: 0.8rem;
+  }
+}
+
+/* --- Print --------------------------------------------------------------- */
+
+@media print {
+  .masthead,
+  .page__footer,
+  .btn,
+  #back-to-top {
+    display: none !important;
+  }
+
+  .page__hero--overlay {
+    background: none !important;
+    min-height: 0;
+    padding: 0 0 1rem;
+
+    .page__title,
+    .page__lead {
+      color: #000;
+    }
+  }
+}
