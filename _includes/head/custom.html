@@ -1,8 +1,10 @@
 <!-- start custom head snippets -->
 
+<!-- Monogram reads better than a face below ~32px, so the SVG stays the
+     favicon and the photo is used for the iOS icon, which needs a real PNG. -->
 <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
 <link rel="alternate icon" href="{{ '/assets/images/favicon.svg' | relative_url }}">
-<link rel="apple-touch-icon" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
 <meta name="theme-color" content="#002b5b">
 
 <!-- Font Awesome is the only third-party request on the page; warm the connection early. -->

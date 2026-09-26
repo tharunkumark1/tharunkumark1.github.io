@@ -11,6 +11,9 @@
   "mainEntity": {
     "@type": "Person",
     "name": {{ site.profile.name | default: site.social.name | default: site.name | jsonify }},
+    {%- if site.author.avatar %}
+    "image": {{ site.author.avatar | absolute_url | jsonify }},
+    {%- endif %}
     "url": {{ '/' | absolute_url | jsonify }}{% if site.author.email %},
     "email": {{ site.author.email | prepend: "mailto:" | jsonify }}{% endif %}{% if site.profile.job_title %},
     "jobTitle": {{ site.profile.job_title | jsonify }}{% endif %}{% if site.profile.address %},

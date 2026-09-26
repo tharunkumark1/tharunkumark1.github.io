@@ -6,6 +6,8 @@ permalink: /
 excerpt: "Senior Architect in system architecture and hardware simulation, driving pre-silicon validation and AI infrastructure at NVIDIA, AMD, and Samsung."
 header:
   overlay_color: "#002b5b"
+  avatar: /assets/images/profile.jpg
+  avatar_alt: "Portrait of Tharun Kumar Ksheerasagar"
   actions:
     - label: "Download Resume"
       url: /assets/resume/Tharun_Kumar_Ksheerasagar_Resume.pdf

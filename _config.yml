@@ -2,7 +2,6 @@
 locale                   : "en-US"
 direction                : # "ltr" (default), "rtl"
 title                    : "Tharun Kumar Ksheerasagar"
-masthead_title           : "T. K. Ksheerasagar" # short name shown in the masthead
 name                     : "Tharun Kumar Ksheerasagar"
 description              : "Senior Architect in system architecture and hardware simulation. Pre-silicon validation and AI infrastructure at NVIDIA, AMD, and Samsung."
 url                      : "https://tharunkumark1.github.io"
@@ -73,7 +72,7 @@ social:
 # Site Author
 author:
   name             : "Tharun Kumar Ksheerasagar"
-  avatar           :
+  avatar           : "/assets/images/profile.jpg"
   bio              : "Senior Architect in system architecture and hardware simulation."
   location         : "Hyderabad, India"
   email            : "tharunkumark1@gmail.com"
@@ -120,6 +119,7 @@ exclude:
   - "README.md"
   - "node_modules"
   - "package.json"
+  - "tools"
 keep_files:
   - ".git"
   - ".svn"

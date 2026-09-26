@@ -45,6 +45,52 @@ $text-muted: #5a6472;
   .page__meta {
     color: rgba(255, 255, 255, 0.8);
   }
+
+  /* Portrait beside the name. Opt-in: a page without an avatar renders
+     .page__hero-body--solo as a plain block, exactly as before. The crop
+     itself is decided in tools/prepare_profile_image.py, so the image only
+     needs cover to guard against distortion. */
+  .page__hero-body {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .page__hero-body--solo {
+    display: block;
+  }
+
+  .page__hero-text {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .page__avatar {
+    flex: 0 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  }
+}
+
+/* The theme's breakpoint() mixin emits min-width queries, so narrow-screen
+   rules are written out longhand. */
+@media screen and (max-width: 48em) {
+  .page__hero--overlay {
+    .page__hero-body {
+      flex-direction: column;
+      gap: 1.25rem;
+      text-align: center;
+    }
+
+    .page__avatar {
+      width: 128px;
+      height: 128px;
+    }
+  }
 }
 
 /* --- Masthead ------------------------------------------------------------ */
@@ -196,6 +242,7 @@ $text-muted: #5a6472;
 @media print {
   .masthead,
   .page__footer,
+  .page__avatar,
   .btn,
   #back-to-top {
     display: none !important;

@@ -24,26 +24,44 @@
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
-        {% if paginator and site.paginate_show_page_num %}
-          {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
-        {% else %}
-          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
-        {% endif %}
-      </h1>
-      {% if page.tagline %}
-        <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-      {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
-        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-      {% endif %}
-      {% include page__meta.html locale=locale %}
-      {% if page.header.actions %}
-        <p>
-        {% for action in page.header.actions %}
-          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[locale].more_label | default: "Learn More" }}</a>
-        {% endfor %}
-        </p>
-      {% endif %}
+      <div class="page__hero-body{% unless page.header.avatar %} page__hero-body--solo{% endunless %}">
+        {%- comment -%}
+          Opt-in portrait. Page-local, under `header:` so it cannot collide with
+          the theme's `header.image`, which means a plain hero banner. Pages
+          without one render unchanged via the --solo modifier.
+        {%- endcomment -%}
+        {%- if page.header.avatar %}
+        <img
+          src="{{ page.header.avatar | relative_url }}"
+          alt="{{ page.header.avatar_alt | default: page.title | default: site.title | escape_once }}"
+          class="page__avatar"
+          width="600"
+          height="600"
+          decoding="async">
+        {%- endif %}
+        <div class="page__hero-text">
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            {% if paginator and site.paginate_show_page_num %}
+              {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
+            {% else %}
+              {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+            {% endif %}
+          </h1>
+          {% if page.tagline %}
+            <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+          {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
+            <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+          {% endif %}
+          {% include page__meta.html locale=locale %}
+          {% if page.header.actions %}
+            <p>
+            {% for action in page.header.actions %}
+              <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[locale].more_label | default: "Learn More" }}</a>
+            {% endfor %}
+            </p>
+          {% endif %}
+        </div>
+      </div>
     </div>
   {% else %}
     <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
