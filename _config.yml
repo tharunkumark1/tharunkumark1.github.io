@@ -88,17 +88,10 @@ author:
       url: "https://github.com/tharunkumark1"
 
 # Site Footer
+# No links here: Email / LinkedIn / GitHub already appear on the hero buttons
+# and in the contact section, so the footer's follow row was pure duplication.
+# Keep `since` so the copyright renders a year range.
 footer:
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:tharunkumark1@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
-      url: "https://linkedin.com/in/tharun-kumar-ksheerasagar"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/tharunkumark1"
   since: "2016"
 
 # Exclude files from the build

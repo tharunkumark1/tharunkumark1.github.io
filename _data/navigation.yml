@@ -1,8 +1,17 @@
-# main links
+# The profile is a single page, so the masthead navigates between sections
+# rather than off-site. The resume PDF and the social profiles are reached from
+# the hero buttons and the contact section, so nothing is duplicated here.
+#
+# Anchors must match the auto-generated h2 ids in index.md. The masthead is
+# position: relative rather than sticky, so no scroll-margin-top is needed.
 main:
-  - title: "Resume"
-    url: /assets/resume/Tharun_Kumar_Ksheerasagar_Resume.pdf
-  - title: "LinkedIn"
-    url: https://linkedin.com/in/tharun-kumar-ksheerasagar
-  - title: "GitHub"
-    url: https://github.com/tharunkumark1
+  - title: "Profile"
+    url: /#profile
+  - title: "Experience"
+    url: /#experience
+  - title: "Patents"
+    url: /#patents
+  - title: "Education"
+    url: /#education
+  - title: "Contact"
+    url: /#contact

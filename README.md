@@ -25,7 +25,7 @@ Then open <http://localhost:4000>.
 | `index.md` | The profile page (all resume content) |
 | `404.md` | Not-found page |
 | `_config.yml` | Site metadata, author details, structured data (`profile:`) |
-| `_data/navigation.yml` | Masthead navigation |
+| `_data/navigation.yml` | Masthead navigation (in-page section anchors) |
 | `_sass/custom.scss` | Accent colours and profile-specific styling |
 | `assets/images/` | Portrait, social preview card, favicon, iOS touch icon |
 | `assets/resume/` | Compiled resume PDF |
@@ -61,11 +61,11 @@ python3 tools/generate_og_image.py
 ```
 
 The source is 4:5, so `prepare_profile_image.py` takes a full-width square crop
-and only the vertical anchor moves. Three anchors were previewed; the default
-`--offset 200` leaves the most headroom above the head. To try another:
+and only the vertical anchor moves. Three anchors were previewed and the default
+`--offset 100` frames the head best. To try another:
 
 ```bash
-python3 tools/prepare_profile_image.py --offset 100   # more centred
+python3 tools/prepare_profile_image.py --offset 200   # more headroom
 ```
 
 `apple-touch-icon.png` must stay full-bleed square with no alpha and no

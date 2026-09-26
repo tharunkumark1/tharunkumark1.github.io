@@ -2,19 +2,19 @@
 """Derive the web image assets from the source portrait in ../tex.
 
 The source is 4:5 (1080x1280), so a square crop keeps the full width and only the
-vertical anchor moves. Three anchors were rendered as previews and C was chosen,
-because it leaves headroom above the head:
+vertical anchor moves. Three anchors were rendered as previews and B was chosen,
+as it frames the head best of the three:
 
     A  --offset 0    face sits at ~60% height (tight, low)
-    B  --offset 100  face sits at ~51% height (centred)
-    C  --offset 200  face sits at ~42% height (default)
+    B  --offset 100  face sits at ~51% height (centred, default)
+    C  --offset 200  face sits at ~42% height (most headroom)
 
 Nothing is ever upscaled: the crop is full-width, and both outputs are
 downsampled from it.
 
 Usage:
-    python3 tools/prepare_profile_image.py              # default anchor C
-    python3 tools/prepare_profile_image.py --offset 100 # switch to anchor B
+    python3 tools/prepare_profile_image.py              # default anchor B
+    python3 tools/prepare_profile_image.py --offset 200 # more headroom
     python3 tools/prepare_profile_image.py --src /path/to/photo.jpg
 """
 
@@ -35,7 +35,7 @@ OUT_ICON = os.path.join(ROOT, "assets", "images", "apple-touch-icon.png")
 PROFILE_SIZE = 600
 ICON_SIZE = 180
 JPEG_QUALITY = 85
-DEFAULT_OFFSET = 200
+DEFAULT_OFFSET = 100
 
 
 def square_crop(img, offset):
