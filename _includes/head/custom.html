@@ -1,5 +1,18 @@
 <!-- start custom head snippets -->
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="alternate icon" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+<meta name="theme-color" content="#002b5b">
+
+<!-- Font Awesome is the only third-party request on the page; warm the connection early. -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+<!-- The theme only emits Twitter tags when site.twitter.username is set; a card
+     without a handle is still useful when the link is shared. -->
+<meta name="twitter:card" content="summary_large_image">
+{%- if site.og_image %}
+<meta name="twitter:image" content="{{ site.og_image | absolute_url | escape }}">
+{%- endif %}
 
 <!-- end custom head snippets -->
