@@ -38,9 +38,10 @@ modeling for next-generation AI inference accelerators.
 
 **Senior Architect** &nbsp;·&nbsp; Hyderabad, India &nbsp;·&nbsp; Apr 2026 – Sept 2026
 
-- Architected a Groq-inspired deterministic execution model for an AI inference accelerator
-  card, establishing predictable, low-latency baseline metrics optimized for real-time
-  Transformer models.
+- Developed a configurable SystemC performance model delivering exact cycle-by-cycle
+  execution for a Groq-inspired AI inference accelerator card, establishing predictable,
+  low-latency baseline metrics for real-time Transformer models while serving as a golden
+  reference model for the compiler team.
 - Engineered an intuitive data-flow visualization tool to track real-time packet movement
   across selected hardware blocks, significantly accelerating cross-functional debug
   turnaround times for the compiler team.
