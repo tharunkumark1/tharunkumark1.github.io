@@ -125,6 +125,12 @@ $text-muted: #5a6472;
     margin-bottom: 0.15rem;
   }
 
+  /* The resume bolds only the company name and leaves the status parenthetical
+     at regular weight. Mirrors that here instead of bolding the whole heading. */
+  h3 .entry-status {
+    font-weight: 400;
+  }
+
   h4 {
     color: $text-muted;
     font-size: 0.82rem;

@@ -34,7 +34,7 @@ modeling for next-generation AI inference accelerators.
 
 ## Experience
 
-### Stealth AI Hardware Startup
+### Stealth AI Hardware Startup <span class="entry-status">(Operations Ceased)</span>
 
 **Senior Architect** &nbsp;·&nbsp; Hyderabad, India &nbsp;·&nbsp; Apr 2026 – Sept 2026
 
