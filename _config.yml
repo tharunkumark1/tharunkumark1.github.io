@@ -86,6 +86,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tharunkumark1"
+    - label: "IEEE WiSPNET paper"
+      icon: "fas fa-fw fa-file-alt"
+      url: "https://doi.org/10.1109/WiSPNET.2016.7566577"
 
 # Site Footer
 # No links here: Email / LinkedIn / GitHub already appear on the hero buttons

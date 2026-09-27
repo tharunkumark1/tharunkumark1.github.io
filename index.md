@@ -38,13 +38,14 @@ modeling for next-generation AI inference accelerators.
 
 **Senior Architect** &nbsp;·&nbsp; Hyderabad, India &nbsp;·&nbsp; Apr 2026 – Sept 2026
 
-- Developed a configurable SystemC performance model delivering exact cycle-by-cycle
-  execution for a Groq-inspired AI inference accelerator card, establishing predictable,
-  low-latency baseline metrics for real-time Transformer models while serving as a golden
-  reference model for the compiler team.
-- Engineered an intuitive data-flow visualization tool to track real-time packet movement
-  across selected hardware blocks, significantly accelerating cross-functional debug
-  turnaround times for the compiler team.
+- Led a two-engineer team while developing a configurable SystemC performance model
+  delivering exact cycle-by-cycle execution for a Groq-inspired AI inference accelerator
+  card.
+- Provided a golden reference model for the compiler team, establishing predictable,
+  low-latency execution frameworks for real-time Transformer workloads.
+- Prototyped an intuitive web-based data-flow visualization tool using agentic AI to track
+  real-time packet movement across hardware blocks, accelerating compiler debug turnaround
+  times.
 
 ### NVIDIA
 
@@ -52,8 +53,9 @@ modeling for next-generation AI inference accelerators.
 
 - Led system-level validation and cross-functional debug for NVIDIA's next-generation N2X AI
   platform.
-- Spearheaded the complex integration of an NVIDIA iGPU into a MediaTek SoC, achieving initial
-  pre-silicon bring-up on a Virtual Platform in an accelerated 4-month timeframe.
+- Spearheaded the complex integration of an NVIDIA iGPU into a MediaTek SoC, driving
+  virtual platform bring-up to achieve successful system Linux and GPU firmware boot in an
+  accelerated 4-month timeframe.
 
 ### AMD
 
@@ -107,7 +109,9 @@ modeling for next-generation AI inference accelerators.
 
 ## Publications
 
-- **Performance analysis of DS-CDMA using different chaotic sequences** — IEEE, Mar 2016
+- **Performance analysis of DS-CDMA using different chaotic sequences** —
+  [IEEE](https://doi.org/10.1109/WiSPNET.2016.7566577), 2016 Int. Conf. on Wireless
+  Communications, Signal Processing and Networking (WiSPNET), Mar 2016, pp. 2421–2425
 
 ## Skills
 
@@ -136,7 +140,7 @@ Synopsys VDK, AMD Vivado / Vitis, AMD xsim, Cadence IWB / Incisive, NCSim
 
 **M.Tech in Software Systems** &nbsp;·&nbsp; BITS Pilani (WILP) &nbsp;·&nbsp; CGPA 8.19
 
-**B.Tech in Electronics & Communication Engineering** &nbsp;·&nbsp; NIT Warangal &nbsp;·&nbsp; CGPA 8.94
+**B.Tech in Electronics & Communication Engineering** &nbsp;·&nbsp; NIT Warangal &nbsp;·&nbsp; CGPA 8.94 &nbsp;·&nbsp; Consistent Institute Merit Scholar
 
 ## Contact
 
