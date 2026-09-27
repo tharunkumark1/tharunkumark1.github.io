@@ -72,9 +72,10 @@ modeling for next-generation AI inference accelerators.
   Machine Learning (ML) inference and FinTech algorithmic trading.
 - Accelerated Xilinx Vitis hardware emulation speed by 6x (doubling the MVP target of 3x),
   significantly reducing simulation and debug turnaround times for complex architectures.
-- Engineered a scalable, latency-accurate I/O emulation feature for the Xilinx Accelerated
-  Algorithmic Trading (AAT) framework, enabling cycle-accurate simulations using PCAP inputs
-  for precise packet-level visibility.
+- Engineered a scalable, latency-accurate I/O emulation feature for the
+  [Xilinx Accelerated Algorithmic Trading (AAT)](https://www.xilinx.com/publications/solution-briefs/xilinx-algorithmic-trading-solution-brief.pdf)
+  framework, enabling cycle-accurate simulations using PCAP inputs for precise
+  packet-level visibility.
 
 ### SAMSUNG
 
@@ -91,11 +92,16 @@ modeling for next-generation AI inference accelerators.
 
 ## Patents
 
+[View all on Google Patents](https://patents.google.com/?inventor=Tharun+Kumar+Ksheerasagar)
+
 - **Model Level Debugging of Machine Learning Designs on Neural Processing Units** —
-  Published, US-20260186951-A1
-- **Multi-Threaded Cycle Accurate Architecture Simulation** — Published, US20240184616-A1
-- **Data traffic injection for simulation of circuit designs** — Issued, US-11630935-B1
-- **Circuit design simulation and clock event reduction** — Published, US-20230114858-A1
+  Published, [US-20260186951-A1](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260186951)
+- **Multi-Threaded Cycle Accurate Architecture Simulation** — Published,
+  [US20240184616-A1](https://patents.google.com/patent/US20240184616A1/en)
+- **Data traffic injection for simulation of circuit designs** — Issued,
+  [US-11630935-B1](https://patents.google.com/patent/US11630935B1/en)
+- **Circuit design simulation and clock event reduction** — Issued,
+  [US-12086521-B2](https://patents.google.com/patent/US12086521B2/en)
 - **Adaptive Simulation Framework for Switching Between Functional and Cycle-accurate
   Execution in Real-Time** — Pending
 
