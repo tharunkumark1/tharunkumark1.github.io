@@ -231,6 +231,33 @@ $text-muted: #5a6472;
   word-break: break-word;
 }
 
+/* --- Desktop single column ----------------------------------------------- */
+
+/* The theme reserves a right-sidebar gutter from 64em up, but
+   _includes/sidebar.html renders nothing here (no author_profile, and the
+   page sets sidebar: false), so below 64em the content was a full-width
+   column while above it the same content was floated into a ~650px measure
+   beside a 300px void. Release the gutter and let one fluid column centre
+   itself instead. Scoped to screen + min-width so the phone layout, which
+   never had the float, is untouched. */
+@media screen and (min-width: 64em) {
+  .page {
+    float: none;
+    width: 100%;
+    padding-inline-end: 0;
+    margin-inline: auto;
+  }
+
+  /* Qualified with .page to match the theme's own `.page .page__inner-wrap`,
+     which is 0-2-0. Unqualified this is 0-1-0 and loses, leaving the float
+     and margin-inline below dead. */
+  .page .page__inner-wrap {
+    float: none;
+    max-width: 56rem;
+    margin-inline: auto;
+  }
+}
+
 /* --- Footer -------------------------------------------------------------- */
 
 .page__footer {
