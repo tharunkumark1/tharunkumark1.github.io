@@ -119,7 +119,7 @@ modeling for next-generation AI inference accelerators.
 C++, SystemC, Python
 
 **Tools & Frameworks**
-Synopsys VDK, AMD Vivado / Vitis, AMD xsim, Cadence IWB / Incisive, NCSim
+Synopsys Virtualizer Studio, AMD Vivado / Vitis, AMD xsim, Cadence IWB / Incisive, NCSim
 
 ## Certifications
 
