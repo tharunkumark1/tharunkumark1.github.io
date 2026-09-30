@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "Tharun Kumar Ksheerasagar"
-tagline: "Senior Architect — System Architecture & Hardware Simulation"
+tagline: "Senior Architect — System Architecture & Performance Evaluation"
 permalink: /
-excerpt: "Senior Architect in system architecture and hardware simulation, driving pre-silicon validation and AI infrastructure at NVIDIA, AMD, and Samsung."
+excerpt: "Senior Architect in system architecture and performance evaluation, driving pre-silicon validation and AI infrastructure at NVIDIA, AMD, and Samsung."
 header:
   overlay_color: "#002b5b"
   avatar: /assets/images/profile.jpg
@@ -24,13 +24,13 @@ sidebar: false
 
 ## Profile
 
-System Architecture and Hardware Simulation Engineer with over a decade of experience
-driving pre-silicon validation and accelerating compute workloads at NVIDIA, AMD, and
-Samsung. Expertise in hardware-software co-design, building optimized hybrid simulation
-frameworks, and resolving complex system-level bottlenecks to drastically reduce design
-turnaround times. Recent work focuses on the advanced AI infrastructure ecosystem, from
-spearheading the integration of NVIDIA iGPUs into MediaTek SoCs to driving architectural
-modeling for next-generation AI inference accelerators.
+System Architecture and Performance Evaluation Engineer with over a decade driving pre-silicon
+validation and compute acceleration at NVIDIA, AMD, and Samsung. Expertise in hardware-software
+co-design, hybrid simulation, and architecting LPUs, NPUs, and GPUs to eliminate system
+bottlenecks. Recent work spans advanced AI infrastructure, from integrating NVIDIA iGPUs into
+MediaTek SoCs to modeling next-gen LPU- and NPU-based inference accelerators.
+
+
 
 ## Experience
 
@@ -63,7 +63,7 @@ modeling for next-generation AI inference accelerators.
 
 - Designed and delivered a custom multi-threaded simulation kernel within a strict six-month
   timeframe, maintaining SystemC semantics while accelerating simulation speeds by up to 10x.
-- Drove the integration of AMD's AI Engine (AIE1 and AIE2) models into the new infrastructure,
+- Drove the integration of AMD's AI Engine (AIE1/AIE2) Neural Processing Unit (NPU) models into the new infrastructure,
   exceeding the initial proof-of-concept scope by transpiling and fine-tuning a
   cycle-accurate model into a functional, untimed simulation model.
 - Developed a comprehensive software debug framework tailored for AI workloads, providing
