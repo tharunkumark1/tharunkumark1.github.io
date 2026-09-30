@@ -37,7 +37,7 @@ BOLD = os.path.join(FONT_DIR, "DejaVuSans-Bold.ttf")
 REGULAR = os.path.join(FONT_DIR, "DejaVuSans.ttf")
 
 NAME_LINES = ["Tharun Kumar", "Ksheerasagar"]
-ROLE = "Senior Architect — System Architecture & Hardware Simulation"
+ROLE = "Senior Architect — System Architecture & Performance Evaluation"
 LOCATION = "Hyderabad, India"
 
 MARGIN = 72

@@ -1,7 +1,7 @@
 # tharunkumark1.github.io
 
 Professional profile site for **Tharun Kumar Ksheerasagar** — Senior Architect in
-system architecture and hardware simulation.
+system architecture and performance evaluation.
 
 The site is a single-page profile published from `index.md`, built with
 [Jekyll](https://jekyllrb.com) using the

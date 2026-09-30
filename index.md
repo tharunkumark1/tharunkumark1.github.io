@@ -39,8 +39,8 @@ MediaTek SoCs to modeling next-gen LPU- and NPU-based inference accelerators.
 **Senior Architect** &nbsp;·&nbsp; Hyderabad, India &nbsp;·&nbsp; Apr 2026 – Sept 2026
 
 - Led a two-engineer team while developing a configurable SystemC performance model
-  delivering exact cycle-by-cycle execution for a Groq-inspired AI inference accelerator
-  card.
+  delivering exact cycle-by-cycle execution for a Groq-inspired AI inference
+  accelerator card tailored for Transformer and LLM workloads.
 - Provided a golden reference model for the compiler team, establishing predictable,
   low-latency execution frameworks for real-time Transformer workloads.
 - Prototyped an intuitive web-based data-flow visualization tool using agentic AI to track
