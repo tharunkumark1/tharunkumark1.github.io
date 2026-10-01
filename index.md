@@ -24,11 +24,9 @@ sidebar: false
 
 ## Profile
 
-System Architecture and Performance Evaluation Engineer with over a decade driving pre-silicon
-validation and compute acceleration at NVIDIA, AMD, and Samsung. Expertise in hardware-software
-co-design, hybrid simulation, and architecting LPUs, NPUs, and GPUs to eliminate system
-bottlenecks. Recent work spans advanced AI infrastructure, from integrating NVIDIA iGPUs into
-MediaTek SoCs to modeling next-gen LPU- and NPU-based inference accelerators.
+System Architecture and Performance Evaluation Engineer with over a decade driving pre-silicon validation and compute acceleration at NVIDIA, AMD, and Samsung.
+Expertise in hardware-software co-design, hybrid simulation, and optimizing complex compute subsystems to eliminate system bottlenecks. 
+Recent work spans advanced AI infrastructure, from integrating NVIDIA iGPUs into MediaTek SoCs to performance modeling for next-gen accelerated inference systems.
 
 
 
