@@ -55,7 +55,7 @@ Recent work spans advanced AI infrastructure, from integrating NVIDIA iGPUs into
   virtual platform bring-up to achieve successful system Linux and GPU firmware boot in an
   accelerated 4-month timeframe.
 
-### AMD
+### AMD - Xilinx
 
 **Member of Technical Staff Software Engineer** &nbsp;·&nbsp; Hyderabad, India &nbsp;·&nbsp; June 2019 – Jan 2025
 
@@ -105,11 +105,13 @@ Recent work spans advanced AI infrastructure, from integrating NVIDIA iGPUs into
 - **Adaptive Simulation Framework for Switching Between Functional and Cycle-accurate
   Execution in Real-Time** — Pending
 
-## Publications
+## Publications & Presentations
 
 - **Performance analysis of DS-CDMA using different chaotic sequences** —
   [IEEE](https://doi.org/10.1109/WiSPNET.2016.7566577), 2016 Int. Conf. on Wireless
   Communications, Signal Processing and Networking (WiSPNET), Mar 2016, pp. 2421–2425
+- **Multi-Threaded Simulation Modeling Kernel** — Poster Presentation, AMD SW Innovation Expo
+  (internal), 2023
 
 ## Skills
 
@@ -130,9 +132,17 @@ Synopsys Virtualizer Studio, AMD Vivado / Vitis, AMD xsim, Cadence IWB / Incisiv
 
 ## Awards
 
-- AMD Executive Spotlight Award
-- Xilinx Quarterly Award
-- Samsung Employee of the Month
+- **Xilinx**
+  - Quarterly Award
+  - Multiple Boost awards
+  - Multiple SPARK awards
+- **AMD**
+  - Executive Spotlight Award
+  - ACE Next 5% Award
+- **Samsung**
+  - Multiple Employee of the Month awards
+  - Multiple Spot awards
+  - Samsung Professional Competence Certification (internal coding competency test)
 
 ## Education
 

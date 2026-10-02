@@ -28,7 +28,7 @@ profile:
   address_country        : "IN"
   affiliations:
     - name: "NVIDIA"
-    - name: "AMD (Xilinx)"
+    - name: "AMD - Xilinx"
     - name: "Samsung"
   alumni_of:
     - name: "BITS Pilani (WILP)"
