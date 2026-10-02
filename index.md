@@ -132,17 +132,10 @@ Synopsys Virtualizer Studio, AMD Vivado / Vitis, AMD xsim, Cadence IWB / Incisiv
 
 ## Awards
 
-- **Xilinx**
-  - Quarterly Award
-  - Multiple Boost awards
-  - Multiple SPARK awards
-- **AMD**
-  - Executive Spotlight Award
-  - ACE Next 5% Award
-- **Samsung**
-  - Multiple Employee of the Month awards
-  - Multiple Spot awards
-  - Samsung Professional Competence Certification (internal coding competency test)
+- **AMD:** Executive Spotlight Award, ACE Next 5% Award
+- **Xilinx:** Quarterly Award, multiple Boost awards, multiple SPARK awards
+- **Samsung:** multiple Employee of the Month awards, multiple Spot awards, Professional
+  Competence Certification (internal coding competency test)
 
 ## Education
 
