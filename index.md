@@ -139,9 +139,9 @@ Synopsys Virtualizer Studio, AMD Vivado / Vitis, AMD xsim, Cadence IWB / Incisiv
 
 ## Education
 
-**M.Tech in Software Systems** &nbsp;·&nbsp; BITS Pilani (WILP) &nbsp;·&nbsp; CGPA 8.19
+**M.Tech in Software Systems** &nbsp;·&nbsp; BITS Pilani (WILP), (2018 – 2020) &nbsp;·&nbsp; CGPA 8.19
 
-**B.Tech in Electronics & Communication Engineering** &nbsp;·&nbsp; NIT Warangal &nbsp;·&nbsp; CGPA 8.94 &nbsp;·&nbsp; Consistent Institute Merit Scholar
+**B.Tech in Electronics & Communication Engineering** &nbsp;·&nbsp; NIT Warangal, (2012 – 2016) &nbsp;·&nbsp; CGPA 8.94 &nbsp;·&nbsp; Consistent Institute Merit Scholar
 
 ## Contact
 
