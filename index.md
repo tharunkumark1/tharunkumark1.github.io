@@ -118,10 +118,16 @@ Recent work spans advanced AI infrastructure, from integrating NVIDIA iGPUs into
 ## Skills
 
 **Languages & Libraries**
-C++, SystemC, Python
+C++, SystemC, Python, Verilog
+
+**Simulation & Modeling**
+Cycle-accurate simulation, performance modeling, architectural exploration, microarchitecture
 
 **Tools & Frameworks**
-Synopsys Virtualizer Studio, AMD Vivado / Vitis, AMD xsim, Cadence IWB / Incisive, NCSim
+Synopsys Virtualizer Studio, AMD Vivado / Vitis, AMD xsim, Cadence IWB / Incisive, NCSim, FPGA emulation
+
+**Domains**
+AI/accelerator cards, NPU and AI accelerator microarchitecture, Transformers, LLMs
 
 ## Certifications
 
