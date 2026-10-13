@@ -64,6 +64,8 @@ Recent work spans advanced AI infrastructure, from integrating NVIDIA iGPUs into
 - Drove the integration of AMD's AI Engine (AIE1/AIE2) Neural Processing Unit (NPU) models into the new infrastructure,
   exceeding the initial proof-of-concept scope by transpiling and fine-tuning a
   cycle-accurate model into a functional, untimed simulation model.
+- Enhanced and validated cycle-accurate performance models for AMD AI Engine (AIE1/AIE2) stream switches and
+  Memory Tiles (Mem Tiles) to enable precise component-level performance evaluation.
 - Developed a comprehensive software debug framework tailored for AI workloads, providing
   robust tooling to troubleshoot and optimize Convolutional Neural Network (CNN)
   architectures such as ResNet and YOLO.
